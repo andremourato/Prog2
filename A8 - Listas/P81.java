@@ -20,7 +20,7 @@ public class P81{
 	public static double sum(double[] arr, int start, int end){
 
 		assert arr != null;
-		assert start >= 0 && start <= end && end <= arr.length;
+		assert start >= 0 && start <= end && end < arr.length;
 
 		double res = 0;
 		for(int i = start; i < end; i++){
